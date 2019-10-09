@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  plexamp:
+    container_name: plexamp
+    build:
+      context: ./
+    image: plexamp:v2.0.0b2
+    devices:
+      - "/dev/snd:/dev/snd"
+    volumes:
+      - "./server.json:/root/.config/Plexamp/server.json"
+    network_mode: host
+    restart: unless-stopped
