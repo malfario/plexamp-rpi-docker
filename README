@@ -1,4 +1,4 @@
-Based on <https://forums.plex.tv/t/suggestions-for-the-future-headless-rpi-support/218187/161>.
+Based on https://forums.plex.tv/t/suggestions-for-the-future-headless-rpi-support/218187/161.
 
 Get a server.json file from existing Plexamp on desktop install and place it at the root of this repo.
 
